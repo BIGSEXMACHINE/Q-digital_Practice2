@@ -1,10 +1,10 @@
-import './App.css';
-import Register from '../src//pages/Register'
+import React from "react";
+import LoginWithLocalStorage from "./pages/LoginWithLocalStorage";
 
 function App() {
   return (
     <div className="App">
-      <Register></Register>
+      <LoginWithLocalStorage></LoginWithLocalStorage>
     </div>
   );
 }
