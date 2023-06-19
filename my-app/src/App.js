@@ -1,11 +1,12 @@
-import React from "react";
-import LoginWithLocalStorage from "./pages/LoginWithLocalStorage";
+import React from 'react';
+import LoginWithLocalStorage from "./Components/LoginWithLocalStorage";
+import './Components/style.css';
 
 function App() {
   return (
-    <div className="App">
-      <LoginWithLocalStorage></LoginWithLocalStorage>
-    </div>
+    <>
+        <LoginWithLocalStorage/>
+    </>
   );
 }
 
