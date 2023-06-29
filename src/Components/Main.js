@@ -1,7 +1,6 @@
 import react ,{useState}from "react";
 import Card from "./Card";
 import axios from "axios";
-import * as url from "url";
 
 
 const Main=()=>{
@@ -19,8 +18,7 @@ const Main=()=>{
             .catch(err=>console.log(err))
         }
     }
-    window.location.href = 'https://bigsexmachine.github.io//book-search'
-    console.log(window.location.href)
+    window.location.href = 'https://bigsexmachine.github.io/book-search'
     return(
         <>
             <div className="header">
