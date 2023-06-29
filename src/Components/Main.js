@@ -18,7 +18,6 @@ const Main=()=>{
             .catch(err=>console.log(err))
         }
     }
-    window.location.href = window.location.origin + '/book-search'
     return(
         <>
             <div className="header">
