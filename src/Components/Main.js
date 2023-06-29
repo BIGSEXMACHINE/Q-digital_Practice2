@@ -18,7 +18,7 @@ const Main=()=>{
             .catch(err=>console.log(err))
         }
     }
-    window.location.href = 'https://bigsexmachine.github.io/book-search'
+    window.location.href = window.location.origin + '/book-search'
     return(
         <>
             <div className="header">
